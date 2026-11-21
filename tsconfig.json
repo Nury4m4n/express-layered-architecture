@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true
+  },
+  "include": ["src/**/*", "prisma/**/*", "generated/**/*", "*.ts"],
+  "exclude": ["node_modules", "contoh", "contoh2"]
+}
